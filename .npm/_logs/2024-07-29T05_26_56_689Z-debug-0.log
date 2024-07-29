@@ -1,0 +1,33 @@
+0 verbose cli /home/vagrant/.nvm/versions/node/v22.5.1/bin/node /home/vagrant/.nvm/versions/node/v22.5.1/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v22.5.1
+3 silly config load:file:/home/vagrant/.nvm/versions/node/v22.5.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/vagrant/.npmrc
+5 silly config load:file:/home/vagrant/.nvm/versions/node/v22.5.1/etc/npmrc
+6 verbose title npm exec create-next-app sotuken
+7 verbose argv "exec" "--" "create-next-app" "sotuken"
+8 verbose logfile logs-max:10 dir:/home/vagrant/.npm/_logs/2024-07-29T05_26_56_689Z-
+9 verbose logfile /home/vagrant/.npm/_logs/2024-07-29T05_26_56_689Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:514588672 maxSize:128647168 maxEntrySize:64323584
+12 http fetch GET 200 https://registry.npmjs.org/create-next-app 562ms (cache miss)
+13 silly packumentCache heap:514588672 maxSize:128647168 maxEntrySize:64323584
+14 silly packumentCache heap:514588672 maxSize:128647168 maxEntrySize:64323584
+15 silly idealTree buildDeps
+16 silly fetch manifest create-next-app@14.2.5
+17 silly packumentCache full:https://registry.npmjs.org/create-next-app cache-miss
+18 http fetch GET 200 https://registry.npmjs.org/create-next-app 791ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/create-next-app set size:undefined disposed:false
+20 silly placeDep ROOT create-next-app@14.2.5 OK for:  want: 14.2.5
+21 silly reify moves {}
+22 silly audit bulk request { 'create-next-app': [ '14.2.5' ] }
+23 silly tarball no local data for create-next-app@https://registry.npmjs.org/create-next-app/-/create-next-app-14.2.5.tgz. Extracting by manifest.
+24 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 171ms
+25 silly audit report {}
+26 http fetch GET 200 https://registry.npmjs.org/create-next-app/-/create-next-app-14.2.5.tgz 287ms (cache miss)
+27 verbose cwd /home/vagrant
+28 verbose os Linux 5.15.0-102-generic
+29 verbose node v22.5.1
+30 verbose npm  v10.8.2
+31 verbose exit 0
+32 info ok
